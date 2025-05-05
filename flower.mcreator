@@ -1,0 +1,118 @@
+{
+  "mod_elements": [
+    {
+      "name": "Pinkflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkflower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower/loot_tables/blocks/pinkflower.json",
+          "src/main/resources/data/flower/worldgen/placed_feature/pinkflower.json",
+          "src/main/resources/assets/flower/models/item/pinkflower.json",
+          "src/main/resources/assets/flower/blockstates/pinkflower.json",
+          "src/main/java/net/mcreator/flower/block/PinkflowerBlock.java",
+          "src/main/resources/data/flower/forge/biome_modifier/pinkflower_biome_modifier.json",
+          "src/main/resources/data/flower/worldgen/configured_feature/pinkflower.json",
+          "src/main/resources/assets/flower/models/block/pinkflower.json"
+        ]
+      }
+    },
+    {
+      "name": "Yellowflower",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "yellowflower",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower/worldgen/configured_feature/yellowflower.json",
+          "src/main/resources/data/flower/forge/biome_modifier/yellowflower_biome_modifier.json",
+          "src/main/java/net/mcreator/flower/block/YellowflowerBlock.java",
+          "src/main/resources/assets/flower/models/item/yellowflower.json",
+          "src/main/resources/assets/flower/models/block/yellowflower.json",
+          "src/main/resources/data/flower/worldgen/placed_feature/yellowflower.json",
+          "src/main/resources/data/flower/loot_tables/blocks/yellowflower.json",
+          "src/main/resources/assets/flower/blockstates/yellowflower.json"
+        ]
+      }
+    },
+    {
+      "name": "Rose",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rose",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/flower/block/RoseBlock.java",
+          "src/main/resources/data/flower/forge/biome_modifier/rose_biome_modifier.json",
+          "src/main/resources/data/flower/worldgen/configured_feature/rose.json",
+          "src/main/resources/assets/flower/models/block/rose.json",
+          "src/main/resources/data/flower/worldgen/placed_feature/rose.json",
+          "src/main/resources/assets/flower/blockstates/rose.json",
+          "src/main/resources/data/flower/loot_tables/blocks/rose.json",
+          "src/main/resources/assets/flower/models/item/rose.json"
+        ]
+      }
+    },
+    {
+      "name": "Violet",
+      "type": "plant",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "violet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/flower/loot_tables/blocks/violet.json",
+          "src/main/resources/assets/flower/blockstates/violet.json",
+          "src/main/resources/data/flower/worldgen/configured_feature/violet.json",
+          "src/main/resources/data/flower/worldgen/placed_feature/violet.json",
+          "src/main/resources/assets/flower/models/block/violet.json",
+          "src/main/resources/data/flower/forge/biome_modifier/violet_biome_modifier.json",
+          "src/main/resources/assets/flower/models/item/violet.json",
+          "src/main/java/net/mcreator/flower/block/VioletBlock.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "tag_elements": {},
+  "tab_element_order": {},
+  "language_map": {
+    "ko_kr": {
+      "block.flower.violet": "제비꽃",
+      "block.flower.rose": "장미",
+      "block.flower.pinkflower": "무궁화",
+      "block.flower.yellowflower": "수선화"
+    },
+    "en_us": {
+      "block.flower.violet": "Violet",
+      "block.flower.rose": "Rose",
+      "block.flower.pinkflower": "Pinkflower",
+      "block.flower.yellowflower": "Yellowflower"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "flower",
+    "modName": "flower",
+    "version": "1.0.0",
+    "author": "11, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Not specified",
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.20.1",
+    "modElementsPackage": "net.mcreator.flower"
+  },
+  "mcreatorVersion": 202500113416
+}
